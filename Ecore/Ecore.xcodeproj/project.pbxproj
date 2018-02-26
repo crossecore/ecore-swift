@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98A64EB21F165E490084E33E /* EAnnotationBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A64E9E1F165E490084E33E /* EAnnotationBase.swift */; };
+		98A64EB31F165E490084E33E /* EAttributeBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A64E9F1F165E490084E33E /* EAttributeBase.swift */; };
+		98A64EB41F165E490084E33E /* EClassBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A64EA01F165E490084E33E /* EClassBase.swift */; };
+		98A64EB51F165E490084E33E /* EClassifierBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A64EA11F165E490084E33E /* EClassifierBase.swift */; };
+		98A64EB61F165E490084E33E /* EDataTypeBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A64EA21F165E490084E33E /* EDataTypeBase.swift */; };
+		98A64EB71F165E490084E33E /* EEnumBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A64EA31F165E490084E33E /* EEnumBase.swift */; };
+		98A64EB81F165E490084E33E /* EEnumLiteralBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A64EA41F165E490084E33E /* EEnumLiteralBase.swift */; };
+		98A64EB91F165E490084E33E /* EFactoryBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A64EA51F165E490084E33E /* EFactoryBase.swift */; };
+		98A64EBA1F165E490084E33E /* EGenericTypeBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A64EA61F165E490084E33E /* EGenericTypeBase.swift */; };
+		98A64EBB1F165E490084E33E /* EModelElementBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A64EA71F165E490084E33E /* EModelElementBase.swift */; };
+		98A64EBC1F165E490084E33E /* ENamedElementBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A64EA81F165E490084E33E /* ENamedElementBase.swift */; };
+		98A64EBD1F165E490084E33E /* EObjectBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A64EA91F165E490084E33E /* EObjectBase.swift */; };
+		98A64EBE1F165E490084E33E /* EOperationBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A64EAA1F165E490084E33E /* EOperationBase.swift */; };
+		98A64EBF1F165E490084E33E /* EPackageBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A64EAB1F165E490084E33E /* EPackageBase.swift */; };
+		98A64EC01F165E490084E33E /* EParameterBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A64EAC1F165E490084E33E /* EParameterBase.swift */; };
+		98A64EC11F165E490084E33E /* EReferenceBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A64EAD1F165E490084E33E /* EReferenceBase.swift */; };
+		98A64EC21F165E490084E33E /* EStringToStringMapEntryBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A64EAE1F165E490084E33E /* EStringToStringMapEntryBase.swift */; };
+		98A64EC31F165E490084E33E /* EStructuralFeatureBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A64EAF1F165E490084E33E /* EStructuralFeatureBase.swift */; };
+		98A64EC41F165E490084E33E /* ETypedElementBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A64EB01F165E490084E33E /* ETypedElementBase.swift */; };
+		98A64EC51F165E490084E33E /* ETypeParameterBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A64EB11F165E490084E33E /* ETypeParameterBase.swift */; };
+		98A64EC71F166E6F0084E33E /* BasicEObjectImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A64EC61F166E6F0084E33E /* BasicEObjectImpl.swift */; };
+		98A64EC91F1670460084E33E /* AbstractCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A64EC81F1670460084E33E /* AbstractCollection.swift */; };
+		98A64ECB1F1670EE0084E33E /* EcoreEList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A64ECA1F1670EE0084E33E /* EcoreEList.swift */; };
+		98A64ECD1F17716B0084E33E /* NotificationImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A64ECC1F17716B0084E33E /* NotificationImpl.swift */; };
+		98A64ECF1F18C6FF0084E33E /* TreeIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A64ECE1F18C6FF0084E33E /* TreeIterator.swift */; };
+		98A64ED11F1CE14B0084E33E /* ENotificationImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A64ED01F1CE14B0084E33E /* ENotificationImpl.swift */; };
+		98A64ED31F1CE4AC0084E33E /* EEnumerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A64ED21F1CE4AC0084E33E /* EEnumerator.swift */; };
+		98D1CA2E1F2C8F3500843F95 /* IOrderedSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D1CA2D1F2C8F3500843F95 /* IOrderedSet.swift */; };
+		98D1CA301F2C8F4200843F95 /* ISet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D1CA2F1F2C8F4200843F95 /* ISet.swift */; };
+		98D1CA321F2C8F5000843F95 /* ISequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D1CA311F2C8F5000843F95 /* ISequence.swift */; };
+		98D1CA341F2C8F5B00843F95 /* IBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D1CA331F2C8F5B00843F95 /* IBag.swift */; };
+		98EB94B01EF40121001A1970 /* Adapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EB94761EF40120001A1970 /* Adapter.swift */; };
+		98EB94B11EF40121001A1970 /* BasicNotifierImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EB94771EF40120001A1970 /* BasicNotifierImpl.swift */; };
+		98EB94B21EF40121001A1970 /* Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EB94781EF40120001A1970 /* Collection.swift */; };
+		98EB94B31EF40121001A1970 /* EAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EB94791EF40120001A1970 /* EAnnotation.swift */; };
+		98EB94B41EF40121001A1970 /* EAnnotationImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EB947A1EF40120001A1970 /* EAnnotationImpl.swift */; };
+		98EB94B51EF40121001A1970 /* EAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EB947B1EF40120001A1970 /* EAttribute.swift */; };
+		98EB94B61EF40121001A1970 /* EAttributeImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EB947C1EF40120001A1970 /* EAttributeImpl.swift */; };
+		98EB94B71EF40121001A1970 /* EClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EB947D1EF40120001A1970 /* EClass.swift */; };
+		98EB94B81EF40121001A1970 /* EClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EB947E1EF40120001A1970 /* EClassifier.swift */; };
+		98EB94B91EF40121001A1970 /* EClassifierImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EB947F1EF40121001A1970 /* EClassifierImpl.swift */; };
+		98EB94BA1EF40121001A1970 /* EClassImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EB94801EF40121001A1970 /* EClassImpl.swift */; };
+		98EB94BB1EF40121001A1970 /* EcoreFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EB94811EF40121001A1970 /* EcoreFactory.swift */; };
+		98EB94BC1EF40121001A1970 /* EcoreFactoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EB94821EF40121001A1970 /* EcoreFactoryImpl.swift */; };
+		98EB94BD1EF40121001A1970 /* EcoreList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EB94831EF40121001A1970 /* EcoreList.swift */; };
+		98EB94BE1EF40121001A1970 /* EcorePackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EB94841EF40121001A1970 /* EcorePackage.swift */; };
+		98EB94BF1EF40121001A1970 /* EcorePackageImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EB94851EF40121001A1970 /* EcorePackageImpl.swift */; };
+		98EB94C01EF40121001A1970 /* EcoreSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EB94861EF40121001A1970 /* EcoreSwitch.swift */; };
+		98EB94C11EF40121001A1970 /* EDataType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EB94871EF40121001A1970 /* EDataType.swift */; };
+		98EB94C21EF40121001A1970 /* EDataTypeImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EB94881EF40121001A1970 /* EDataTypeImpl.swift */; };
+		98EB94C31EF40121001A1970 /* EEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EB94891EF40121001A1970 /* EEnum.swift */; };
+		98EB94C41EF40121001A1970 /* EEnumImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EB948A1EF40121001A1970 /* EEnumImpl.swift */; };
+		98EB94C51EF40121001A1970 /* EEnumLiteral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EB948B1EF40121001A1970 /* EEnumLiteral.swift */; };
+		98EB94C61EF40121001A1970 /* EEnumLiteralImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EB948C1EF40121001A1970 /* EEnumLiteralImpl.swift */; };
+		98EB94C71EF40121001A1970 /* EFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EB948D1EF40121001A1970 /* EFactory.swift */; };
+		98EB94C81EF40121001A1970 /* EFactoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EB948E1EF40121001A1970 /* EFactoryImpl.swift */; };
+		98EB94C91EF40121001A1970 /* EGenericType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EB948F1EF40121001A1970 /* EGenericType.swift */; };
+		98EB94CA1EF40121001A1970 /* EGenericTypeImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EB94901EF40121001A1970 /* EGenericTypeImpl.swift */; };
+		98EB94CB1EF40121001A1970 /* EModelElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EB94911EF40121001A1970 /* EModelElement.swift */; };
+		98EB94CC1EF40121001A1970 /* EModelElementImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EB94921EF40121001A1970 /* EModelElementImpl.swift */; };
+		98EB94CD1EF40121001A1970 /* ENamedElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EB94931EF40121001A1970 /* ENamedElement.swift */; };
+		98EB94CE1EF40121001A1970 /* ENamedElementImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EB94941EF40121001A1970 /* ENamedElementImpl.swift */; };
+		98EB94CF1EF40121001A1970 /* EObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EB94951EF40121001A1970 /* EObject.swift */; };
+		98EB94D01EF40121001A1970 /* EObjectImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EB94961EF40121001A1970 /* EObjectImpl.swift */; };
+		98EB94D11EF40121001A1970 /* EOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EB94971EF40121001A1970 /* EOperation.swift */; };
+		98EB94D21EF40121001A1970 /* EOperationImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EB94981EF40121001A1970 /* EOperationImpl.swift */; };
+		98EB94D31EF40121001A1970 /* EPackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EB94991EF40121001A1970 /* EPackage.swift */; };
+		98EB94D41EF40121001A1970 /* EPackageImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EB949A1EF40121001A1970 /* EPackageImpl.swift */; };
+		98EB94D51EF40121001A1970 /* EParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EB949B1EF40121001A1970 /* EParameter.swift */; };
+		98EB94D61EF40121001A1970 /* EParameterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EB949C1EF40121001A1970 /* EParameterImpl.swift */; };
+		98EB94D71EF40121001A1970 /* EReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EB949D1EF40121001A1970 /* EReference.swift */; };
+		98EB94D81EF40121001A1970 /* EReferenceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EB949E1EF40121001A1970 /* EReferenceImpl.swift */; };
+		98EB94D91EF40121001A1970 /* EStringToStringMapEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EB949F1EF40121001A1970 /* EStringToStringMapEntry.swift */; };
+		98EB94DA1EF40121001A1970 /* EStringToStringMapEntryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EB94A01EF40121001A1970 /* EStringToStringMapEntryImpl.swift */; };
+		98EB94DB1EF40121001A1970 /* EStructuralFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EB94A11EF40121001A1970 /* EStructuralFeature.swift */; };
+		98EB94DC1EF40121001A1970 /* EStructuralFeatureImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EB94A21EF40121001A1970 /* EStructuralFeatureImpl.swift */; };
+		98EB94DD1EF40121001A1970 /* ETypedElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EB94A31EF40121001A1970 /* ETypedElement.swift */; };
+		98EB94DE1EF40121001A1970 /* ETypedElementImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EB94A41EF40121001A1970 /* ETypedElementImpl.swift */; };
+		98EB94DF1EF40121001A1970 /* ETypeParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EB94A51EF40121001A1970 /* ETypeParameter.swift */; };
+		98EB94E01EF40121001A1970 /* ETypeParameterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EB94A61EF40121001A1970 /* ETypeParameterImpl.swift */; };
+		98EB94E11EF40121001A1970 /* InternalEObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EB94A81EF40121001A1970 /* InternalEObject.swift */; };
+		98EB94E21EF40121001A1970 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EB94A91EF40121001A1970 /* Notification.swift */; };
+		98EB94E31EF40121001A1970 /* NotificationChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EB94AA1EF40121001A1970 /* NotificationChain.swift */; };
+		98EB94E41EF40121001A1970 /* Notifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EB94AB1EF40121001A1970 /* Notifier.swift */; };
+		98EB94E51EF40121001A1970 /* NotifyingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EB94AC1EF40121001A1970 /* NotifyingList.swift */; };
+		98EB94E61EF40121001A1970 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EB94AD1EF40121001A1970 /* Resource.swift */; };
+		98EB94E71EF40121001A1970 /* Set_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EB94AE1EF40121001A1970 /* Set_.swift */; };
+		98EB94E81EF40121001A1970 /* Switch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EB94AF1EF40121001A1970 /* Switch.swift */; };
+		98EB94EA1EF4018B001A1970 /* OrderedSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EB94E91EF4018B001A1970 /* OrderedSet.swift */; };
+		98EB94EC1EF40197001A1970 /* Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EB94EB1EF40197001A1970 /* Sequence.swift */; };
+		98EB94EE1EF401A7001A1970 /* Bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EB94ED1EF401A7001A1970 /* Bag.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		98A64E9E1F165E490084E33E /* EAnnotationBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAnnotationBase.swift; sourceTree = "<group>"; };
+		98A64E9F1F165E490084E33E /* EAttributeBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAttributeBase.swift; sourceTree = "<group>"; };
+		98A64EA01F165E490084E33E /* EClassBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EClassBase.swift; sourceTree = "<group>"; };
+		98A64EA11F165E490084E33E /* EClassifierBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EClassifierBase.swift; sourceTree = "<group>"; };
+		98A64EA21F165E490084E33E /* EDataTypeBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EDataTypeBase.swift; sourceTree = "<group>"; };
+		98A64EA31F165E490084E33E /* EEnumBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EEnumBase.swift; sourceTree = "<group>"; };
+		98A64EA41F165E490084E33E /* EEnumLiteralBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EEnumLiteralBase.swift; sourceTree = "<group>"; };
+		98A64EA51F165E490084E33E /* EFactoryBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EFactoryBase.swift; sourceTree = "<group>"; };
+		98A64EA61F165E490084E33E /* EGenericTypeBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EGenericTypeBase.swift; sourceTree = "<group>"; };
+		98A64EA71F165E490084E33E /* EModelElementBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EModelElementBase.swift; sourceTree = "<group>"; };
+		98A64EA81F165E490084E33E /* ENamedElementBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENamedElementBase.swift; sourceTree = "<group>"; };
+		98A64EA91F165E490084E33E /* EObjectBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EObjectBase.swift; sourceTree = "<group>"; };
+		98A64EAA1F165E490084E33E /* EOperationBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EOperationBase.swift; sourceTree = "<group>"; };
+		98A64EAB1F165E490084E33E /* EPackageBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EPackageBase.swift; sourceTree = "<group>"; };
+		98A64EAC1F165E490084E33E /* EParameterBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EParameterBase.swift; sourceTree = "<group>"; };
+		98A64EAD1F165E490084E33E /* EReferenceBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EReferenceBase.swift; sourceTree = "<group>"; };
+		98A64EAE1F165E490084E33E /* EStringToStringMapEntryBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EStringToStringMapEntryBase.swift; sourceTree = "<group>"; };
+		98A64EAF1F165E490084E33E /* EStructuralFeatureBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EStructuralFeatureBase.swift; sourceTree = "<group>"; };
+		98A64EB01F165E490084E33E /* ETypedElementBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ETypedElementBase.swift; sourceTree = "<group>"; };
+		98A64EB11F165E490084E33E /* ETypeParameterBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ETypeParameterBase.swift; sourceTree = "<group>"; };
+		98A64EC61F166E6F0084E33E /* BasicEObjectImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicEObjectImpl.swift; sourceTree = "<group>"; };
+		98A64EC81F1670460084E33E /* AbstractCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbstractCollection.swift; sourceTree = "<group>"; };
+		98A64ECA1F1670EE0084E33E /* EcoreEList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EcoreEList.swift; sourceTree = "<group>"; };
+		98A64ECC1F17716B0084E33E /* NotificationImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationImpl.swift; sourceTree = "<group>"; };
+		98A64ECE1F18C6FF0084E33E /* TreeIterator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreeIterator.swift; sourceTree = "<group>"; };
+		98A64ED01F1CE14B0084E33E /* ENotificationImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENotificationImpl.swift; sourceTree = "<group>"; };
+		98A64ED21F1CE4AC0084E33E /* EEnumerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EEnumerator.swift; sourceTree = "<group>"; };
+		98C2F49E1EF400D300F53CEE /* libEcore.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libEcore.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		98D1CA2D1F2C8F3500843F95 /* IOrderedSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IOrderedSet.swift; sourceTree = "<group>"; };
+		98D1CA2F1F2C8F4200843F95 /* ISet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISet.swift; sourceTree = "<group>"; };
+		98D1CA311F2C8F5000843F95 /* ISequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISequence.swift; sourceTree = "<group>"; };
+		98D1CA331F2C8F5B00843F95 /* IBag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBag.swift; sourceTree = "<group>"; };
+		98EB94761EF40120001A1970 /* Adapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Adapter.swift; sourceTree = "<group>"; };
+		98EB94771EF40120001A1970 /* BasicNotifierImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicNotifierImpl.swift; sourceTree = "<group>"; };
+		98EB94781EF40120001A1970 /* Collection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Collection.swift; sourceTree = "<group>"; };
+		98EB94791EF40120001A1970 /* EAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAnnotation.swift; sourceTree = "<group>"; };
+		98EB947A1EF40120001A1970 /* EAnnotationImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAnnotationImpl.swift; sourceTree = "<group>"; };
+		98EB947B1EF40120001A1970 /* EAttribute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAttribute.swift; sourceTree = "<group>"; };
+		98EB947C1EF40120001A1970 /* EAttributeImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAttributeImpl.swift; sourceTree = "<group>"; };
+		98EB947D1EF40120001A1970 /* EClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EClass.swift; sourceTree = "<group>"; };
+		98EB947E1EF40120001A1970 /* EClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EClassifier.swift; sourceTree = "<group>"; };
+		98EB947F1EF40121001A1970 /* EClassifierImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EClassifierImpl.swift; sourceTree = "<group>"; };
+		98EB94801EF40121001A1970 /* EClassImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EClassImpl.swift; sourceTree = "<group>"; };
+		98EB94811EF40121001A1970 /* EcoreFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EcoreFactory.swift; sourceTree = "<group>"; };
+		98EB94821EF40121001A1970 /* EcoreFactoryImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EcoreFactoryImpl.swift; sourceTree = "<group>"; };
+		98EB94831EF40121001A1970 /* EcoreList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EcoreList.swift; sourceTree = "<group>"; };
+		98EB94841EF40121001A1970 /* EcorePackage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EcorePackage.swift; sourceTree = "<group>"; };
+		98EB94851EF40121001A1970 /* EcorePackageImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EcorePackageImpl.swift; sourceTree = "<group>"; };
+		98EB94861EF40121001A1970 /* EcoreSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EcoreSwitch.swift; sourceTree = "<group>"; };
+		98EB94871EF40121001A1970 /* EDataType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EDataType.swift; sourceTree = "<group>"; };
+		98EB94881EF40121001A1970 /* EDataTypeImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EDataTypeImpl.swift; sourceTree = "<group>"; };
+		98EB94891EF40121001A1970 /* EEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EEnum.swift; sourceTree = "<group>"; };
+		98EB948A1EF40121001A1970 /* EEnumImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EEnumImpl.swift; sourceTree = "<group>"; };
+		98EB948B1EF40121001A1970 /* EEnumLiteral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EEnumLiteral.swift; sourceTree = "<group>"; };
+		98EB948C1EF40121001A1970 /* EEnumLiteralImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EEnumLiteralImpl.swift; sourceTree = "<group>"; };
+		98EB948D1EF40121001A1970 /* EFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EFactory.swift; sourceTree = "<group>"; };
+		98EB948E1EF40121001A1970 /* EFactoryImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EFactoryImpl.swift; sourceTree = "<group>"; };
+		98EB948F1EF40121001A1970 /* EGenericType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EGenericType.swift; sourceTree = "<group>"; };
+		98EB94901EF40121001A1970 /* EGenericTypeImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EGenericTypeImpl.swift; sourceTree = "<group>"; };
+		98EB94911EF40121001A1970 /* EModelElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EModelElement.swift; sourceTree = "<group>"; };
+		98EB94921EF40121001A1970 /* EModelElementImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EModelElementImpl.swift; sourceTree = "<group>"; };
+		98EB94931EF40121001A1970 /* ENamedElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENamedElement.swift; sourceTree = "<group>"; };
+		98EB94941EF40121001A1970 /* ENamedElementImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENamedElementImpl.swift; sourceTree = "<group>"; };
+		98EB94951EF40121001A1970 /* EObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EObject.swift; sourceTree = "<group>"; };
+		98EB94961EF40121001A1970 /* EObjectImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EObjectImpl.swift; sourceTree = "<group>"; };
+		98EB94971EF40121001A1970 /* EOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EOperation.swift; sourceTree = "<group>"; };
+		98EB94981EF40121001A1970 /* EOperationImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EOperationImpl.swift; sourceTree = "<group>"; };
+		98EB94991EF40121001A1970 /* EPackage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EPackage.swift; sourceTree = "<group>"; };
+		98EB949A1EF40121001A1970 /* EPackageImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EPackageImpl.swift; sourceTree = "<group>"; };
+		98EB949B1EF40121001A1970 /* EParameter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EParameter.swift; sourceTree = "<group>"; };
+		98EB949C1EF40121001A1970 /* EParameterImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EParameterImpl.swift; sourceTree = "<group>"; };
+		98EB949D1EF40121001A1970 /* EReference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EReference.swift; sourceTree = "<group>"; };
+		98EB949E1EF40121001A1970 /* EReferenceImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EReferenceImpl.swift; sourceTree = "<group>"; };
+		98EB949F1EF40121001A1970 /* EStringToStringMapEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EStringToStringMapEntry.swift; sourceTree = "<group>"; };
+		98EB94A01EF40121001A1970 /* EStringToStringMapEntryImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EStringToStringMapEntryImpl.swift; sourceTree = "<group>"; };
+		98EB94A11EF40121001A1970 /* EStructuralFeature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EStructuralFeature.swift; sourceTree = "<group>"; };
+		98EB94A21EF40121001A1970 /* EStructuralFeatureImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EStructuralFeatureImpl.swift; sourceTree = "<group>"; };
+		98EB94A31EF40121001A1970 /* ETypedElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ETypedElement.swift; sourceTree = "<group>"; };
+		98EB94A41EF40121001A1970 /* ETypedElementImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ETypedElementImpl.swift; sourceTree = "<group>"; };
+		98EB94A51EF40121001A1970 /* ETypeParameter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ETypeParameter.swift; sourceTree = "<group>"; };
+		98EB94A61EF40121001A1970 /* ETypeParameterImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ETypeParameterImpl.swift; sourceTree = "<group>"; };
+		98EB94A71EF40121001A1970 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		98EB94A81EF40121001A1970 /* InternalEObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InternalEObject.swift; sourceTree = "<group>"; };
+		98EB94A91EF40121001A1970 /* Notification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		98EB94AA1EF40121001A1970 /* NotificationChain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationChain.swift; sourceTree = "<group>"; };
+		98EB94AB1EF40121001A1970 /* Notifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notifier.swift; sourceTree = "<group>"; };
+		98EB94AC1EF40121001A1970 /* NotifyingList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotifyingList.swift; sourceTree = "<group>"; };
+		98EB94AD1EF40121001A1970 /* Resource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
+		98EB94AE1EF40121001A1970 /* Set_.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Set_.swift; sourceTree = "<group>"; };
+		98EB94AF1EF40121001A1970 /* Switch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Switch.swift; sourceTree = "<group>"; };
+		98EB94E91EF4018B001A1970 /* OrderedSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderedSet.swift; sourceTree = "<group>"; };
+		98EB94EB1EF40197001A1970 /* Sequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sequence.swift; sourceTree = "<group>"; };
+		98EB94ED1EF401A7001A1970 /* Bag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bag.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98C2F49B1EF400D300F53CEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98C2F4951EF400D300F53CEE = {
+			isa = PBXGroup;
+			children = (
+				98D1CA331F2C8F5B00843F95 /* IBag.swift */,
+				98D1CA311F2C8F5000843F95 /* ISequence.swift */,
+				98D1CA2F1F2C8F4200843F95 /* ISet.swift */,
+				98D1CA2D1F2C8F3500843F95 /* IOrderedSet.swift */,
+				98A64ED21F1CE4AC0084E33E /* EEnumerator.swift */,
+				98A64ED01F1CE14B0084E33E /* ENotificationImpl.swift */,
+				98A64ECE1F18C6FF0084E33E /* TreeIterator.swift */,
+				98A64ECC1F17716B0084E33E /* NotificationImpl.swift */,
+				98A64ECA1F1670EE0084E33E /* EcoreEList.swift */,
+				98A64EC81F1670460084E33E /* AbstractCollection.swift */,
+				98A64EC61F166E6F0084E33E /* BasicEObjectImpl.swift */,
+				98A64E9E1F165E490084E33E /* EAnnotationBase.swift */,
+				98A64E9F1F165E490084E33E /* EAttributeBase.swift */,
+				98A64EA01F165E490084E33E /* EClassBase.swift */,
+				98A64EA11F165E490084E33E /* EClassifierBase.swift */,
+				98A64EA21F165E490084E33E /* EDataTypeBase.swift */,
+				98A64EA31F165E490084E33E /* EEnumBase.swift */,
+				98A64EA41F165E490084E33E /* EEnumLiteralBase.swift */,
+				98A64EA51F165E490084E33E /* EFactoryBase.swift */,
+				98A64EA61F165E490084E33E /* EGenericTypeBase.swift */,
+				98A64EA71F165E490084E33E /* EModelElementBase.swift */,
+				98A64EA81F165E490084E33E /* ENamedElementBase.swift */,
+				98A64EA91F165E490084E33E /* EObjectBase.swift */,
+				98A64EAA1F165E490084E33E /* EOperationBase.swift */,
+				98A64EAB1F165E490084E33E /* EPackageBase.swift */,
+				98A64EAC1F165E490084E33E /* EParameterBase.swift */,
+				98A64EAD1F165E490084E33E /* EReferenceBase.swift */,
+				98A64EAE1F165E490084E33E /* EStringToStringMapEntryBase.swift */,
+				98A64EAF1F165E490084E33E /* EStructuralFeatureBase.swift */,
+				98A64EB01F165E490084E33E /* ETypedElementBase.swift */,
+				98A64EB11F165E490084E33E /* ETypeParameterBase.swift */,
+				98EB94ED1EF401A7001A1970 /* Bag.swift */,
+				98EB94EB1EF40197001A1970 /* Sequence.swift */,
+				98EB94E91EF4018B001A1970 /* OrderedSet.swift */,
+				98EB94761EF40120001A1970 /* Adapter.swift */,
+				98EB94771EF40120001A1970 /* BasicNotifierImpl.swift */,
+				98EB94781EF40120001A1970 /* Collection.swift */,
+				98EB94791EF40120001A1970 /* EAnnotation.swift */,
+				98EB947A1EF40120001A1970 /* EAnnotationImpl.swift */,
+				98EB947B1EF40120001A1970 /* EAttribute.swift */,
+				98EB947C1EF40120001A1970 /* EAttributeImpl.swift */,
+				98EB947D1EF40120001A1970 /* EClass.swift */,
+				98EB947E1EF40120001A1970 /* EClassifier.swift */,
+				98EB947F1EF40121001A1970 /* EClassifierImpl.swift */,
+				98EB94801EF40121001A1970 /* EClassImpl.swift */,
+				98EB94811EF40121001A1970 /* EcoreFactory.swift */,
+				98EB94821EF40121001A1970 /* EcoreFactoryImpl.swift */,
+				98EB94831EF40121001A1970 /* EcoreList.swift */,
+				98EB94841EF40121001A1970 /* EcorePackage.swift */,
+				98EB94851EF40121001A1970 /* EcorePackageImpl.swift */,
+				98EB94861EF40121001A1970 /* EcoreSwitch.swift */,
+				98EB94871EF40121001A1970 /* EDataType.swift */,
+				98EB94881EF40121001A1970 /* EDataTypeImpl.swift */,
+				98EB94891EF40121001A1970 /* EEnum.swift */,
+				98EB948A1EF40121001A1970 /* EEnumImpl.swift */,
+				98EB948B1EF40121001A1970 /* EEnumLiteral.swift */,
+				98EB948C1EF40121001A1970 /* EEnumLiteralImpl.swift */,
+				98EB948D1EF40121001A1970 /* EFactory.swift */,
+				98EB948E1EF40121001A1970 /* EFactoryImpl.swift */,
+				98EB948F1EF40121001A1970 /* EGenericType.swift */,
+				98EB94901EF40121001A1970 /* EGenericTypeImpl.swift */,
+				98EB94911EF40121001A1970 /* EModelElement.swift */,
+				98EB94921EF40121001A1970 /* EModelElementImpl.swift */,
+				98EB94931EF40121001A1970 /* ENamedElement.swift */,
+				98EB94941EF40121001A1970 /* ENamedElementImpl.swift */,
+				98EB94951EF40121001A1970 /* EObject.swift */,
+				98EB94961EF40121001A1970 /* EObjectImpl.swift */,
+				98EB94971EF40121001A1970 /* EOperation.swift */,
+				98EB94981EF40121001A1970 /* EOperationImpl.swift */,
+				98EB94991EF40121001A1970 /* EPackage.swift */,
+				98EB949A1EF40121001A1970 /* EPackageImpl.swift */,
+				98EB949B1EF40121001A1970 /* EParameter.swift */,
+				98EB949C1EF40121001A1970 /* EParameterImpl.swift */,
+				98EB949D1EF40121001A1970 /* EReference.swift */,
+				98EB949E1EF40121001A1970 /* EReferenceImpl.swift */,
+				98EB949F1EF40121001A1970 /* EStringToStringMapEntry.swift */,
+				98EB94A01EF40121001A1970 /* EStringToStringMapEntryImpl.swift */,
+				98EB94A11EF40121001A1970 /* EStructuralFeature.swift */,
+				98EB94A21EF40121001A1970 /* EStructuralFeatureImpl.swift */,
+				98EB94A31EF40121001A1970 /* ETypedElement.swift */,
+				98EB94A41EF40121001A1970 /* ETypedElementImpl.swift */,
+				98EB94A51EF40121001A1970 /* ETypeParameter.swift */,
+				98EB94A61EF40121001A1970 /* ETypeParameterImpl.swift */,
+				98EB94A71EF40121001A1970 /* index.html */,
+				98EB94A81EF40121001A1970 /* InternalEObject.swift */,
+				98EB94A91EF40121001A1970 /* Notification.swift */,
+				98EB94AA1EF40121001A1970 /* NotificationChain.swift */,
+				98EB94AB1EF40121001A1970 /* Notifier.swift */,
+				98EB94AC1EF40121001A1970 /* NotifyingList.swift */,
+				98EB94AD1EF40121001A1970 /* Resource.swift */,
+				98EB94AE1EF40121001A1970 /* Set_.swift */,
+				98EB94AF1EF40121001A1970 /* Switch.swift */,
+				98C2F49F1EF400D300F53CEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98C2F49F1EF400D300F53CEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98C2F49E1EF400D300F53CEE /* libEcore.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		98C2F49C1EF400D300F53CEE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		98C2F49D1EF400D300F53CEE /* Ecore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98C2F4A21EF400D300F53CEE /* Build configuration list for PBXNativeTarget "Ecore" */;
+			buildPhases = (
+				98C2F49A1EF400D300F53CEE /* Sources */,
+				98C2F49B1EF400D300F53CEE /* Frameworks */,
+				98C2F49C1EF400D300F53CEE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ecore;
+			productName = Ecore;
+			productReference = 98C2F49E1EF400D300F53CEE /* libEcore.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98C2F4961EF400D300F53CEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "s-lab";
+				TargetAttributes = {
+					98C2F49D1EF400D300F53CEE = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = ZQUDMXH5Q5;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 98C2F4991EF400D300F53CEE /* Build configuration list for PBXProject "Ecore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 98C2F4951EF400D300F53CEE;
+			productRefGroup = 98C2F49F1EF400D300F53CEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98C2F49D1EF400D300F53CEE /* Ecore */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98C2F49A1EF400D300F53CEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98EB94B91EF40121001A1970 /* EClassifierImpl.swift in Sources */,
+				98EB94DA1EF40121001A1970 /* EStringToStringMapEntryImpl.swift in Sources */,
+				98EB94C21EF40121001A1970 /* EDataTypeImpl.swift in Sources */,
+				98A64EBD1F165E490084E33E /* EObjectBase.swift in Sources */,
+				98EB94E61EF40121001A1970 /* Resource.swift in Sources */,
+				98EB94D41EF40121001A1970 /* EPackageImpl.swift in Sources */,
+				98A64ECD1F17716B0084E33E /* NotificationImpl.swift in Sources */,
+				98A64EB31F165E490084E33E /* EAttributeBase.swift in Sources */,
+				98A64EB21F165E490084E33E /* EAnnotationBase.swift in Sources */,
+				98EB94B81EF40121001A1970 /* EClassifier.swift in Sources */,
+				98A64EBE1F165E490084E33E /* EOperationBase.swift in Sources */,
+				98A64ECF1F18C6FF0084E33E /* TreeIterator.swift in Sources */,
+				98EB94EA1EF4018B001A1970 /* OrderedSet.swift in Sources */,
+				98A64EB71F165E490084E33E /* EEnumBase.swift in Sources */,
+				98A64ED11F1CE14B0084E33E /* ENotificationImpl.swift in Sources */,
+				98EB94D81EF40121001A1970 /* EReferenceImpl.swift in Sources */,
+				98EB94B51EF40121001A1970 /* EAttribute.swift in Sources */,
+				98EB94CF1EF40121001A1970 /* EObject.swift in Sources */,
+				98A64ED31F1CE4AC0084E33E /* EEnumerator.swift in Sources */,
+				98EB94EE1EF401A7001A1970 /* Bag.swift in Sources */,
+				98EB94BC1EF40121001A1970 /* EcoreFactoryImpl.swift in Sources */,
+				98A64EBB1F165E490084E33E /* EModelElementBase.swift in Sources */,
+				98D1CA341F2C8F5B00843F95 /* IBag.swift in Sources */,
+				98EB94DB1EF40121001A1970 /* EStructuralFeature.swift in Sources */,
+				98EB94BB1EF40121001A1970 /* EcoreFactory.swift in Sources */,
+				98EB94CD1EF40121001A1970 /* ENamedElement.swift in Sources */,
+				98A64EC91F1670460084E33E /* AbstractCollection.swift in Sources */,
+				98EB94E01EF40121001A1970 /* ETypeParameterImpl.swift in Sources */,
+				98A64EC51F165E490084E33E /* ETypeParameterBase.swift in Sources */,
+				98EB94DC1EF40121001A1970 /* EStructuralFeatureImpl.swift in Sources */,
+				98A64EBF1F165E490084E33E /* EPackageBase.swift in Sources */,
+				98D1CA2E1F2C8F3500843F95 /* IOrderedSet.swift in Sources */,
+				98A64EBA1F165E490084E33E /* EGenericTypeBase.swift in Sources */,
+				98EB94B61EF40121001A1970 /* EAttributeImpl.swift in Sources */,
+				98D1CA301F2C8F4200843F95 /* ISet.swift in Sources */,
+				98EB94E71EF40121001A1970 /* Set_.swift in Sources */,
+				98EB94D11EF40121001A1970 /* EOperation.swift in Sources */,
+				98EB94E81EF40121001A1970 /* Switch.swift in Sources */,
+				98EB94D61EF40121001A1970 /* EParameterImpl.swift in Sources */,
+				98A64EB91F165E490084E33E /* EFactoryBase.swift in Sources */,
+				98EB94D21EF40121001A1970 /* EOperationImpl.swift in Sources */,
+				98EB94BD1EF40121001A1970 /* EcoreList.swift in Sources */,
+				98A64EC01F165E490084E33E /* EParameterBase.swift in Sources */,
+				98A64EC11F165E490084E33E /* EReferenceBase.swift in Sources */,
+				98EB94E51EF40121001A1970 /* NotifyingList.swift in Sources */,
+				98EB94C11EF40121001A1970 /* EDataType.swift in Sources */,
+				98EB94E41EF40121001A1970 /* Notifier.swift in Sources */,
+				98EB94D91EF40121001A1970 /* EStringToStringMapEntry.swift in Sources */,
+				98EB94D71EF40121001A1970 /* EReference.swift in Sources */,
+				98A64EB61F165E490084E33E /* EDataTypeBase.swift in Sources */,
+				98EB94C91EF40121001A1970 /* EGenericType.swift in Sources */,
+				98D1CA321F2C8F5000843F95 /* ISequence.swift in Sources */,
+				98EB94B71EF40121001A1970 /* EClass.swift in Sources */,
+				98EB94DF1EF40121001A1970 /* ETypeParameter.swift in Sources */,
+				98EB94B31EF40121001A1970 /* EAnnotation.swift in Sources */,
+				98EB94D51EF40121001A1970 /* EParameter.swift in Sources */,
+				98EB94C01EF40121001A1970 /* EcoreSwitch.swift in Sources */,
+				98EB94C61EF40121001A1970 /* EEnumLiteralImpl.swift in Sources */,
+				98EB94E11EF40121001A1970 /* InternalEObject.swift in Sources */,
+				98A64EC71F166E6F0084E33E /* BasicEObjectImpl.swift in Sources */,
+				98EB94CE1EF40121001A1970 /* ENamedElementImpl.swift in Sources */,
+				98EB94DE1EF40121001A1970 /* ETypedElementImpl.swift in Sources */,
+				98EB94C51EF40121001A1970 /* EEnumLiteral.swift in Sources */,
+				98EB94C71EF40121001A1970 /* EFactory.swift in Sources */,
+				98EB94CA1EF40121001A1970 /* EGenericTypeImpl.swift in Sources */,
+				98A64EC31F165E490084E33E /* EStructuralFeatureBase.swift in Sources */,
+				98EB94DD1EF40121001A1970 /* ETypedElement.swift in Sources */,
+				98EB94E31EF40121001A1970 /* NotificationChain.swift in Sources */,
+				98A64EB41F165E490084E33E /* EClassBase.swift in Sources */,
+				98EB94CC1EF40121001A1970 /* EModelElementImpl.swift in Sources */,
+				98A64ECB1F1670EE0084E33E /* EcoreEList.swift in Sources */,
+				98EB94C31EF40121001A1970 /* EEnum.swift in Sources */,
+				98A64EB81F165E490084E33E /* EEnumLiteralBase.swift in Sources */,
+				98EB94B21EF40121001A1970 /* Collection.swift in Sources */,
+				98EB94B41EF40121001A1970 /* EAnnotationImpl.swift in Sources */,
+				98EB94EC1EF40197001A1970 /* Sequence.swift in Sources */,
+				98EB94B11EF40121001A1970 /* BasicNotifierImpl.swift in Sources */,
+				98A64EB51F165E490084E33E /* EClassifierBase.swift in Sources */,
+				98A64EBC1F165E490084E33E /* ENamedElementBase.swift in Sources */,
+				98A64EC41F165E490084E33E /* ETypedElementBase.swift in Sources */,
+				98EB94BE1EF40121001A1970 /* EcorePackage.swift in Sources */,
+				98EB94C81EF40121001A1970 /* EFactoryImpl.swift in Sources */,
+				98EB94BF1EF40121001A1970 /* EcorePackageImpl.swift in Sources */,
+				98EB94D31EF40121001A1970 /* EPackage.swift in Sources */,
+				98EB94BA1EF40121001A1970 /* EClassImpl.swift in Sources */,
+				98EB94D01EF40121001A1970 /* EObjectImpl.swift in Sources */,
+				98EB94B01EF40121001A1970 /* Adapter.swift in Sources */,
+				98EB94CB1EF40121001A1970 /* EModelElement.swift in Sources */,
+				98A64EC21F165E490084E33E /* EStringToStringMapEntryBase.swift in Sources */,
+				98EB94C41EF40121001A1970 /* EEnumImpl.swift in Sources */,
+				98EB94E21EF40121001A1970 /* Notification.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		98C2F4A01EF400D300F53CEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		98C2F4A11EF400D300F53CEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		98C2F4A31EF400D300F53CEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = ZQUDMXH5Q5;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		98C2F4A41EF400D300F53CEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = ZQUDMXH5Q5;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98C2F4991EF400D300F53CEE /* Build configuration list for PBXProject "Ecore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98C2F4A01EF400D300F53CEE /* Debug */,
+				98C2F4A11EF400D300F53CEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98C2F4A21EF400D300F53CEE /* Build configuration list for PBXNativeTarget "Ecore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98C2F4A31EF400D300F53CEE /* Debug */,
+				98C2F4A41EF400D300F53CEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98C2F4961EF400D300F53CEE /* Project object */;
+}
