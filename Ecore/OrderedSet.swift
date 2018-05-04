@@ -16,6 +16,35 @@ class OrderedSet<T:Equatable>:AbstractCollection<T>, IOrderedSet{
         
         return self.array[i];
     }
+    
+    func collect<T2>(lambda:((T)->T2))->OrderedSet<T2>{
+        let result = OrderedSet<T2>();
+        
+        
+        for item in self.array{
+            result.add(element:lambda(item));
+        }
+        
+        return result;
+        
+    }
+    
+    func collect<T2>(lambda:((T)->AbstractCollection<T2>))->OrderedSet<T2>{
+        let result = OrderedSet<T2>();
+        
+        
+        for item in self.array{
+            
+            let e = lambda(item);
+            
+            for ee in e{
+                result.add(element:ee);
+            }
+            
+        }
+        
+        return result;
+    }
 
 }
 
